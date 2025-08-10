@@ -44,7 +44,11 @@ To develop a machine learning model that detects the presence of humans in image
    * Resize images to a fixed size (e.g., 64×128 pixels).
    * Apply Histogram Equalization for better contrast.
 
+<<<<<<< HEAD:Reports/Applied_Machine_Learning.rst
    *![[Plot 1](../Output/m1.png)](../Output/m1.png)*
+=======
+   ![[Sample augmented images](../Output/m1.png)](../Output/m1.png)
+>>>>>>> fef7bf9d664837eb5c2f4b153a023a840fe3c52e:Reports/Applied_Machine_Learning.md
 
 3. **Feature Extraction**
 
