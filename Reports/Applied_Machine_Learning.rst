@@ -44,14 +44,14 @@ To develop a machine learning model that detects the presence of humans in image
    * Resize images to a fixed size (e.g., 64×128 pixels).
    * Apply Histogram Equalization for better contrast.
 
-   *![Sample augmented images](../Output\m1.png)*
+   *![[Plot 1](../Output/m1.png)](../Output/m1.png)*
 
 3. **Feature Extraction**
 
    * Use **Histogram of Oriented Gradients (HOG)** to extract key shape-based features.
    * Normalize feature vectors.
 
-   *(Insert Plot 2: Visualization of HOG features for a sample image)*
+   *![[Plot 2](../Output/m2.png)](../Output/m2.png)*
 
 4. **Model Selection & Training**
 
@@ -59,23 +59,27 @@ To develop a machine learning model that detects the presence of humans in image
 
      * **SVM (Support Vector Machine)** – best for binary classification.
      * **Random Forest** – robust to overfitting.
-   * Use `GridSearchCV` for hyperparameter tuning.
+   * The Comparision for the accuracy of the models are as follow  
 
-   *(Insert Plot 3: Training accuracy vs. validation accuracy graph)*
+   *![[Plot 3](../Output/m3.png)](../Output/m3.png)*
 
 5. **Model Evaluation**
 
    * Metrics: Accuracy, Precision, Recall, F1-Score.
    * Confusion Matrix for classification performance.
 
-   *(Insert Plot 4: Confusion matrix plot)*
+   *![[Plot 4](../Output/m4.png)](../Output/m4.png)*
 
-6. **Prediction & Results**
+6. **The Pricipal Component Analysis Implementation**
+    *![[Plot 5](../Output/m5.png)](../Output/m5.png)*
+
+7. **Prediction & Results**
 
    * Test model on unseen images.
    * Visualize correct vs. incorrect predictions.
 
-   *(Insert Plot 5: Side-by-side comparison of predictions)*
+   *![[Plot 6](../Output/m6.png)](../Output/m6.png)*
+   *![[Plot 7](../Output/m7.png)](../Output/m7.png)*
 
 ---
 
@@ -99,13 +103,12 @@ To develop a machine learning model that detects the presence of humans in image
 ### **Technologies & Tools**
 
 * Python 3.x
-* Jupyter Notebook / VS Code
+* VS Code
 * CPU-only environment
 
 ---
 
 ### **Conclusion**
 
-The ML-based approach is lightweight and works well for small datasets, but struggles in complex scenarios with varied lighting, angles, and occlusion. This leads us to the **Deep Learning variant** for higher accuracy.
-
+**The ML-based approach is lightweight and works well for small datasets, but struggles in complex scenarios with varied lighting, angles, and occlusion. This leads us to the Deep Learning variant for higher accuracy**.
 ---
