@@ -39,7 +39,7 @@ To build a deep learning model that can automatically detect humans in images us
    * Normalize pixel values to range \[0,1].
    * Augment data (rotation, flipping, zoom) to avoid overfitting.
 
-   *(Insert Plot 1: Sample augmented images)*
+   *(..\human detection dataset\0\1.png)*
 
 2. **Model Architecture**
 
@@ -51,7 +51,7 @@ To build a deep learning model that can automatically detect humans in images us
      * Fully Connected layers (classification)
    * Output layer with **sigmoid** activation for binary classification.
 
-   *(Insert Plot 2: Diagram of CNN architecture)*
+ 
 
 3. **Model Training**
 
@@ -60,21 +60,20 @@ To build a deep learning model that can automatically detect humans in images us
    * Epochs: 20–30 depending on results.
    * Batch Size: 32 or 64.
 
-   *(Insert Plot 3: Training vs. validation loss/accuracy graph)*
 
 4. **Evaluation**
 
    * Confusion Matrix, Precision, Recall, F1-Score.
    * ROC-AUC curve.
 
-   *(Insert Plot 4: Confusion matrix)*
-   *(Insert Plot 5: ROC curve)*
+   *![[Plot 1](../Output/d2.png)](../Output/d2.png)*
+  
 
 5. **Prediction**
 
    * Test on unseen images and visualize.
 
-   *(Insert Plot 6: Grid of sample predictions with labels)*
+    *![[Plot 2](../Output/d1.png)](../Output/d1.png)*
 
 ---
 
@@ -103,5 +102,5 @@ To build a deep learning model that can automatically detect humans in images us
 
 ### **Conclusion**
 
-The CNN-based deep learning approach significantly outperforms traditional ML methods in complex scenarios. However, it requires more computation power and training time.
+**The CNN-based deep learning approach significantly outperforms traditional ML methods in complex scenarios. However, it requires more computation power and training time.**
 ---

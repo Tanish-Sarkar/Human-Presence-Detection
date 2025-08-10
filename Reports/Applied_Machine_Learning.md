@@ -71,7 +71,7 @@ To develop a machine learning model that detects the presence of humans in image
    *![[Plot 4](../Output/m4.png)](../Output/m4.png)*
 
 6. **The Pricipal Component Analysis Implementation**
-    *![[Plot 5](../Output/m5.png)](../Output/m5.png)*
+    * *![[Plot 5](../Output/m5.png)](../Output/m5.png)*
 
 7. **Prediction & Results**
 
