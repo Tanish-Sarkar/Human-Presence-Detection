@@ -51,7 +51,7 @@ To ensure model robustness:
 * Random rotations, horizontal flips, zooming, and brightness shifts.
 * Objective: Improve generalization and reduce overfitting.
 
-* *[(Output\m2.png)]*
+* *![(Output\m2.png)]*
 
 ### **3.3 Model Architecture**
 
