@@ -46,8 +46,6 @@ To develop a machine learning model that detects the presence of humans in image
 
    *![[Plot 1](../Output/m1.png)](../Output/m1.png)*
 
-   ![[Sample augmented images](../Output/m1.png)](../Output/m1.png)
-
 3. **Feature Extraction**
 
    * Use **Histogram of Oriented Gradients (HOG)** to extract key shape-based features.
