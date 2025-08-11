@@ -39,7 +39,7 @@ To build a deep learning model that can automatically detect humans in images us
    * Normalize pixel values to range \[0,1].
    * Augment data (rotation, flipping, zoom) to avoid overfitting.
 
-   *(..\human detection dataset\0\1.png)*
+   *![[Plot 0](../Output/m2.png)](../Output/m2.png)*
 
 2. **Model Architecture**
 
